@@ -1,0 +1,8 @@
+Ronaldo César Cunha Bento 2021102201
+
+Thiago Ribeiro Augusto 2022102281
+
+Maria Gabriela 2022101727
+
+
+O Modelo 1 (Simples) apresentou a menor acurácia (0.4691) devido à sua arquitetura reduzida (apenas 128 neurônios em uma camada), sendo vantajoso por seu treinamento rápido e baixo consumo computacional, porém limitado na captura de padrões complexos. O Modelo 2 (Médio), com duas camadas (256 e 128 neurônios), obteve melhor desempenho (0.4874) que o Modelo 1, equilibrando complexidade e eficiência, mas ainda com dificuldades em classes visualmente similares. O Modelo 3 (Profundo), com três camadas (512, 256 e 128 neurônios), destacou-se como o melhor (0.4962), aproveitando sua profundidade para extrair características hierárquicas, embora demandasse mais tempo de treinamento. O Modelo 4 (Tanh), similar em estrutura ao Modelo 2 mas com ativação Tanh, teve performance ligeiramente inferior (0.4829), confirmando a ReLU como função mais eficaz. Já o Modelo 5 (Largo), com camadas maiores (1024 e 512 neurônios), alcançou a segunda melhor acurácia (0.4931), porém com custo computacional elevado, tornando o Modelo 3 a escolha mais equilibrada entre desempenho e eficiência.
